@@ -462,6 +462,7 @@ textarea {
 .footer-form-input {
   border: 1px solid #ffffff;
   border-radius: 4px;
+  font-size: 12px;
   color: #ffffff;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -581,6 +582,9 @@ textarea {
 .modal-form-wraper {
   margin-bottom: 8px;
 }
+.comment-form-wraper {
+  margin-bottom: 16px;
+}
 
 .icon-set {
   position: absolute;
@@ -644,7 +648,7 @@ textarea:focus {
   width: 100%;
 }
 .copy {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 .submit-btn {
   min-width: 169px;
@@ -696,6 +700,7 @@ textarea:focus {
 .input-user-privacy:checked + .label-user-privacy > .user-privacy-span {
   background-color: #404bbf;
   border: transparent;
+  fill: #f4f4fd;
 }
 .modal-true-icon {
   opacity: 0;
