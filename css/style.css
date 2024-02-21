@@ -463,10 +463,12 @@ textarea {
   border: 1px solid #ffffff;
   border-radius: 4px;
   color: #ffffff;
+  line-height: 2;
+  letter-spacing: 0.04em;
   padding: 8px 16px;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .footer-form-input::placeholder {
@@ -480,13 +482,15 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   border: 0;
   border-radius: 4px;
   padding: 8px 24px;
   cursor: pointer;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
 }
@@ -494,6 +498,9 @@ textarea {
 .footer-form-btn:focus {
   background-color: #404bbf;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer-form-icon {
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
